@@ -1,0 +1,41 @@
+div.author i {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 1.5em;
+  color: #657b83;
+  margin-right:.2em;
+}
+div.author {
+  padding-top:1em;
+}
+div.author div {
+  display:inline-block;
+  width:49%;
+}
+div.author p {
+  text-align:left;
+}
+div.author ul {
+  list-style: none;
+  text-align:center;
+}
+div.author #chris ul {
+  float:right;
+  margin-right:50px;
+}
+div.author #stefan ul {
+  float:left;
+}
+div.author #chris {
+  float:left;
+  border-right: 2px solid black;
+}
+div.author #stefan {
+  float: right;
+}
+div.author a:not(.image) {
+  color: #657b83;
+}
+div.author .fa {
+  vertical-align: middle;
+}

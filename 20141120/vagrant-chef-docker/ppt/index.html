@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Don't repeat yourself with Vagrant, Chef and Docker</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="Christian Assing, @chassing; Stefan Morgenthaler, @morgents">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- style overwrites -->
+		<link rel="stylesheet" href="css/opendevstyle.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+        <!-- Title Page -->
+        <section>
+          <h1>Don't repeat yourself</h1>
+          <h3>... with Vagrant, Chef &amp Docker</h3>
+          <div class="author">
+            <div id="chris">
+              <ul>
+                <li>Christian Assing</li>
+                <li><i class="fa fa-twitter fa-3x"></i><a href="https://twitter.com/chassing" target="_blank">chassing</a></li>
+              </ul>
+            </div>
+            <div id="stefan">
+              <ul>
+                <li>Stefan Morgenthaler</li>
+                <li><i class="fa fa-twitter fa-3x"></i><a href="https://twitter.com/morgents" target="_blank">morgents</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Inhalt -->
+        <section>
+          <h2>Inhalt</h2>
+          <ul>
+            <li><strong>Configuration Managment</strong> mit <strong>Chef</strong></li>
+            <li>Verwaltung virtueller Maschienen mit <strong>Vagrant</strong></li>
+            <li>Application Management with <strong>Docker</strong></li>
+          </ul>
+        </section>
+
+        <!-- Configuraion Management-->
+        <section>
+          <section>
+            <h1>Configuration Management</h1>
+          </section>
+
+          <section>
+            <h2>Bekannteste Vertreter</h2>
+            <ul>
+              <li>Puppet - <a href="http://puppetlabs.com">puppetlabs.com</a></li>
+              <li>Chef - <a href="https://www.getchef.com">getchef.com</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Chef</h2>
+            <!-- kurze einführung -->
+            <!-- Kleines Beispiel Rezept minimal Rezept zeigen-->
+            <!-- Chef Solo vs. Chef Server -->
+            <!-- Tools um effizient mit Chef solo arbeiten zu können (Berkshelf ... ) -->
+            <!-- Live Demo: Erzeugen eines minimal Rezeptes welches  'Docker & Tools' Installiert -->
+            <!-- Wie Testen?-->
+            <!-- => Vagrant-->
+          </section>
+        </section>
+
+        <!-- Vagrant -->
+        <section> 
+          <section> 
+            <h1>Vagrant</h1>
+          </section>
+
+          <section>
+            <h2>ddd</h2>
+            <pre>
+              <code data-trim>
+$ vagrant init box-cutter/ubuntu1404
+$ vagrant up
+              </code>
+            </pre>
+          </section>
+
+          <section>
+            <!-- kurze Einfürung -->
+            <!-- Bsp.: => vagrant init XXX; vagrant up -->
+            <!-- Live Demo -->
+            <!-- Ressourcen -->
+          </section>
+        </section>
+
+        <!-- Docker -->
+        <section>
+          <section>
+            <h1>Docker</h1>
+          </section>
+          <section>
+            <!-- your stuff here :) -->
+          </section>
+        </section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
