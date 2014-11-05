@@ -83,6 +83,15 @@
           </section>
 
           <section>
+            <p>Weil wir <strong>faul</strong> sind...</p>
+            <img style="width:60%;" src="img/automate-all-the-things1.png"></img>
+            <p>
+              <small>Quelle: <a href="http://carlosbecker.com/posts/dotfiles-are-meant-to-be-forked/">C. A. Becker</a> [11/2014]</small>
+            </p>
+            <p>...und die Arbeit nur <strong>einmal</strong> machen wollen!</p>
+          </section>
+
+          <section>
             <h2>Bekannteste Vertreter</h2>
             <ul>
               <li>Puppet - <a href="http://puppetlabs.com">puppetlabs.com</a></li>
@@ -95,41 +104,99 @@
             <div class="frag_img">
               <img class="css-shapes-preview imgA1" id="chef_concept" src="img/chef_overview.png"></img>
 
-              <!-- A <3 for SVG :) -->
-              <svg class="img_svg_overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <!-- server -->
-                <g class="fragment current-visible">
-                  <rect x="20" y="140" rx="25" ry="25" width="380" height="310"></rect>
-                  <text x="450" y="60">[ Server ]</text>
-                </g>
+            <!-- A <3 for SVG :) -->
+            <svg class="img_svg_overlay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <!-- server -->
+              <g class="fragment current-visible">
+                <rect x="20" y="140" rx="25" ry="25" width="380" height="310"></rect>
+                <text x="450" y="60">[ Server ]</text>
+              </g>
 
-                <!-- nodes -->
-                <g class="fragment current-visible">
-                  <rect x="450" y="100" rx="25" ry="25" width="150" height="380"></rect>
-                  <text x="450" y="60">[ Nodes ]</text>
-                </g>
+              <!-- nodes -->
+              <g class="fragment current-visible">
+                <rect x="450" y="100" rx="25" ry="25" width="150" height="380"></rect>
+                <text x="450" y="60">[ Nodes ]</text>
+              </g>
 
-                <!-- workstation -->
-                <g class="fragment current-visible">
-                  <rect x="20" y="460" rx="25" ry="25" width="380" height="140"></rect>
-                  <text x="400" y="60">[ Your Client ]</text>
-                </g>
-              </svg>
-            </div>
+              <!-- workstation -->
+              <g class="fragment current-visible">
+                <rect x="20" y="460" rx="25" ry="25" width="380" height="140"></rect>
+                <text x="400" y="60">[ Your Client ]</text>
+              </g>
+            </svg>
+          </div>
 
-            <p>
-              <small>Quelle: <a href="https://docs.getchef.com/chef_overview.html">Chef Documentation</a> [11/2014]</small>
-            </p>
-          </section>
+          <p>
+            <small>Quelle: <a href="https://docs.getchef.com/chef_overview.html">Chef Documentation</a> [11/2014]</small>
+          </p>
+        </section>
 
-            <h2>Chef</h2>
-            <!-- kurze einführung -->
-            <!-- Kleines Beispiel Rezept minimal Rezept zeigen-->
-            <!-- Chef Solo vs. Chef Server -->
-            <!-- Tools um effizient mit Chef solo arbeiten zu können (Berkshelf ... ) -->
-            <!-- Live Demo: Erzeugen eines minimal Rezeptes welches  'Docker & Tools' Installiert -->
-            <!-- Wie Testen?-->
-            <!-- => Vagrant-->
+        <section>
+          <h2>Chef - Konzept II</h2>
+          <ul>
+            <li>Cookbooks</li>
+            <li>Environments</li>
+            <li>Roles</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Chef <u>ohne</u> Server</h2>
+          <ul>
+            <li>knife-solo - <a href="https://matschaffer.github.io/knife-solo/">atschaffer.github.io/knife-solo</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Erzeugen eines Chef Repositories</h2>
+          <pre>
+            <code data-trim>
+WARNING: No knife configuration file found
+Creating kitchen...
+Creating knife.rb in kitchen...
+Creating cupboards...
+Setting up Librarian...
+            </code>
+          </pre>
+        </section>
+
+        <section>
+          <h2>Erzeugen eines Chef Repositories</h2>
+          <pre>
+            <code data-trim>
+$ knife solo init .
+            </code>
+            <code data-trim>
+
+$ tree -a .
+.
+├── .chef/
+│   └── knife.rb
+├── Cheffile
+├── cookbooks/
+├── data_bags/
+├── environments/
+├── nodes/
+├── roles/
+└── site-cookbooks/
+            </code>
+          </pre>
+        </section>
+
+
+
+        <section>
+          <h2>Chef</h2>
+          <!-- kurze einführung -->
+          <!-- Kleines Beispiel Rezept minimal Rezept zeigen-->
+          <!-- Chef Solo vs. Chef Server -->
+          <!-- Tools um effizient mit Chef solo arbeiten zu können (Berkshelf ... ) -->
+          <!-- Live Demo: Erzeugen eines minimal Rezeptes welches  'Docker & Tools' Installiert -->
+          <!-- Wie Testen?-->
+          <!-- => Vagrant-->
           </section>
         </section>
 
