@@ -9,6 +9,7 @@
 
 [@chassing](https://twitter.com/chassing)
 [github.com/chassing](https://github.com/chassing)
+[github.com/opendevmeet](https://github.com/opendevmeet/)
 
 ---
 
@@ -30,13 +31,11 @@ docker.com
 
 # Use Cases
 
-![inline 60%](https://d3oypxn00j2a10.cloudfront.net/assets/img/Gilt/Gilt_Logo.jpg) ![inline](https://d3oypxn00j2a10.cloudfront.net/assets/img/Yelp/Yelp-Logo.jpg)
-![inline](https://d3oypxn00j2a10.cloudfront.net/0.7.0/img/logos/spotify-small.png)
+![inline](https://d3oypxn00j2a10.cloudfront.net/assets/img/Yelp/Yelp-Logo.jpg) ![inline](https://d3oypxn00j2a10.cloudfront.net/assets/img/New%20Relic/logo_NR-fb.png) ![inline](https://d3oypxn00j2a10.cloudfront.net/0.7.0/img/logos/spotify-small.png)
 
 ![inline](slide-docker.jpg)
 
-![inline 200%](https://d3oypxn00j2a10.cloudfront.net/0.7.0/img/homepage/ebay-logo.png)
-![inline](https://d3oypxn00j2a10.cloudfront.net/assets/img/New%20Relic/logo_NR-fb.png) ![inline](https://d3oypxn00j2a10.cloudfront.net/assets/img/Rackspace/RackspaceLogoManagedCloudLogo.jpg)
+![inline 200%](https://d3oypxn00j2a10.cloudfront.net/0.7.0/img/homepage/ebay-logo.png) ![inline](https://d3oypxn00j2a10.cloudfront.net/assets/img/Rackspace/RackspaceLogoManagedCloudLogo.jpg)
 
 ---
 
@@ -112,7 +111,7 @@ ___
 
 ---
 
-# More
+# Moar!
 
 ![](http://static1.gamespot.com/uploads/ignore_jpg_scale_super/1425/14251903/2622920-8277373593-Famou.jpg)
 
