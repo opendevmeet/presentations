@@ -19,20 +19,6 @@ div.author ul {
   list-style: none;
   text-align:center;
 }
-div.author #chris ul {
-  float:right;
-  margin-right:50px;
-}
-div.author #stefan ul {
-  float:left;
-}
-div.author #chris {
-  float:left;
-  border-right: 2px solid black;
-}
-div.author #stefan {
-  float: right;
-}
 div.author a:not(.image) {
   color: #657b83;
 }
