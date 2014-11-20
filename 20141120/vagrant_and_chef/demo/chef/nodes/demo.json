@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "role[osx_base]",
+    "recipe[my_default_applications::vim]",
+    "recipe[my_default_applications::chrome]"
+  ]
+}

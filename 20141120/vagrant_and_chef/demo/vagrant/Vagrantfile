@@ -1,0 +1,35 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+
+  # Mac OS X 10.10 - custom build box. see: https://github.com/box-cutter/osx-vm/
+  config.vm.box = "osx1010"
+
+  config.vm.provider "virtualbox" do |vb|
+    # Don't boot with headless mode
+    vb.gui = true
+  
+    # Use VBoxManage to customize the VM. For example to change memory:
+    vb.customize ["modifyvm", :id, "--memory", "1024"]
+  end
+
+  # Enable provisioning with chef solo, specifying a cookbooks path, roles
+  # path, and data_bags path (all relative to this Vagrantfile), and adding
+  # some recipes and/or roles.
+  #
+  # config.vm.provision "chef_solo" do |chef|
+  #   chef.cookbooks_path = "../chef/cookbooks"
+  #   chef.roles_path = "../chef/roles"
+  #   chef.data_bags_path = "../chef/data_bags"
+  #   chef.add_recipe "mysql"
+  #   chef.add_role "osx_base"
+  #
+  #   # You may also specify custom JSON attributes:
+  #   chef.json = { mysql_password: "foo" }
+  # end
+
+end

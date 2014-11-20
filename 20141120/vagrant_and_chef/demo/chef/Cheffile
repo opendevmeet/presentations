@@ -1,0 +1,4 @@
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'homebrew', '~> 1.9.2'
+cookbook 'my_default_applications', :path => 'site-cookbooks/my_default_applications'
