@@ -2,7 +2,7 @@ Presentations
 =============
 
 - 2014/10/20:
-  - Don't repeat yourself with Vagrant & Chef -  [PDF](https://raw.githubusercontent.com/opendevmeet/presentations/20141120/vagrant_and_chef/presentation.pdf), [source files](https://github.com/opendevmeet/presentations/20141120/vagrant_and_chef/) by [moregeek](https://github.com/moregeek)
+  - Don't repeat yourself with Vagrant & Chef -  [PDF](https://github.com/opendevmeet/presentations/blob/master/20141120/vagrant_and_chef/presentation.pdf?raw=true), [source files](https://github.com/opendevmeet/presentations/tree/master/20141120/vagrant_and_chef) by [moregeek](https://github.com/moregeek)
 
 Adding your presentation to this Repository
 ===========================================
