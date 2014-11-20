@@ -1,0 +1,16 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    dmg (2.2.2)
+    homebrew (1.9.2)
+
+PATH
+  remote: site-cookbooks/my_default_applications
+  specs:
+    my_default_applications (0.1.7)
+      dmg (>= 0.0.0)
+
+DEPENDENCIES
+  homebrew (~> 1.9.2)
+  my_default_applications (>= 0)
+
