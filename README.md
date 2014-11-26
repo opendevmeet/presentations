@@ -4,6 +4,7 @@ Presentations
 - 2014/10/20:
   - Don't repeat yourself with Vagrant & Chef -  [PDF](https://github.com/opendevmeet/presentations/blob/master/20141120/vagrant_and_chef/presentation.pdf?raw=true), [source files](https://github.com/opendevmeet/presentations/tree/master/20141120/vagrant_and_chef) by [moregeek](https://github.com/moregeek)
   - Docker - [PDF](https://github.com/opendevmeet/presentations/blob/master/20141120/docker/final-docker.pdf?raw=true), [source files](https://github.com/opendevmeet/presentations/tree/master/20141120/docker) by [chassing](https://github.com/chassing)
+  - NodeJS - [PDF](https://github.com/opendevmeet/presentations/blob/master/20141120/nodejs/presentation.pdf?raw=true), [source files](https://github.com/opendevmeet/presentations/tree/master/20141120/nodejs/src) by [unki2aut](https://github.com/unki2aut)
 
 Adding your presentation to this Repository
 ===========================================
